@@ -1,0 +1,1 @@
+LoRa models are made using Maple 2024 Build 1872373 (of 29/oct 2024)

@@ -46,7 +46,7 @@ def run_tests(num_tests: int = 100, inter_test_delay_ms = 25):
         else:
             print(f"Test {i + 1}: Failed")
         
-        # Optionally add a small delay between tests to avoid overwhelming the hardware
+        # Small delay between tests to avoid overwhelming the hardware
         utime.sleep_ms(inter_test_delay_ms)
     
     make_statistics()
